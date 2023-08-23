@@ -13,12 +13,17 @@ const questions = [
     {
         type: 'input',
         message: "Enter your GitHub username: ",
-        name: "username",
+        name: "github",
     },
     {
         type: 'input',
         message: "Enter your email: ",
         name: "email",
+    },
+    {
+        type: 'input',
+        message: "Enter description for your project: ",
+        name: "description",
     },
     {
         type: 'input',
@@ -33,12 +38,12 @@ const questions = [
     {
         type: 'input',
         message: "Enter contribution guidelines: ",
-        name: "contribution",
+        name: "contributing",
     },
     {
         type: 'input',
         message: "Enter test instructions: ",
-        name: "test",
+        name: "tests",
     },
     {
         type: 'list',
